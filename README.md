@@ -82,6 +82,16 @@ The simulation produced the following results across 100,000 hypothetical monthl
 | FLCSX 95th percentile: | 10.199 percentage points |
 
 
+### Sample of the investment path for 250 months
+
+![Sample of the investment path for 250 months](figures/returns_presentations.png)
+
+### Distribution of Simulated Monthly Returns
+
+![SPY and FLCSX monthly return distributions](figures/return_distributions.png)
+
+
+
 ### Interpretation
 
 FLCSX outperformed SPY in approximately 50.4% of the simulated monthly scenarios.
