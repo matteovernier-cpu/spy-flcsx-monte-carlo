@@ -42,24 +42,6 @@ The simulation follows these steps:
 
 This approach is a **paired independent bootstrap**, since the daily returns of the two funds remain paired while observations are independently resampled across trading days.
 
-### Monthly Return Calculation
-
-If daily returns are compounded, each simulated monthly return is calculated as:
-
-\[
-R_{\text{month}}=\prod_{t=1}^{21}(1+r_t)-1
-\]
-
-where \(r_t\) represents the daily return sampled for trading day \(t\).
-
-The monthly performance difference is then:
-
-\[
-\Delta R=R_{\text{FLCSX}}-R_{\text{SPY}}
-\]
-
-A positive difference indicates that FLCSX outperformed SPY during that simulated month.
-
 ## 4. Results
 
 The simulation produced the following results across 100,000 hypothetical monthly scenarios:
